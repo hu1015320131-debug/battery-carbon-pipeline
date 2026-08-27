@@ -1,0 +1,28 @@
+{
+  "schema_version": "RID_V2",
+  "business_unit_codes": {
+    "合成一部": "DY1",
+    "Synthetic Division 1": "DY1",
+    "合成二部": "DY2",
+    "Synthetic Division 2": "DY2"
+  },
+  "supplier_codes": {
+    "SYNA": [
+      "SYNA",
+      "Synthetic Supplier A",
+      "SYNTHETIC_SUPPLIER_A"
+    ],
+    "SYNB": [
+      "SYNB",
+      "Synthetic Supplier B",
+      "SYNTHETIC_SUPPLIER_B"
+    ]
+  },
+  "material_codes": {
+    "电芯": "DX",
+    "PCB": "PCB",
+    "其他": "other"
+  },
+  "unknown_supplier_code": "UNK",
+  "serial_width": 6
+}

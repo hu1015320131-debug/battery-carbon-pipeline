@@ -1,0 +1,62 @@
+{
+  "contract_id": "WP5_DEMO_STRICT_CONTRACT_V1",
+  "authority_order": [
+    "SYNTHETIC_DEMO"
+  ],
+  "upstream_mode": "READ_ONLY_EVIDENCE",
+  "stage_field_counts": {
+    "D1": 45,
+    "D2": 57,
+    "D3": 36,
+    "D4": 48,
+    "D5": 56,
+    "FROZEN_LINEAGE": 32
+  },
+  "excluded_regression_values": {
+    "policy": "MUST_NOT_ENTER_FORMAL_EXPECTATIONS"
+  },
+  "machine_units": [
+    "PCS",
+    "g/PCS",
+    "g/year",
+    "kg/year",
+    "kgCO2e/kg",
+    "kgCO2e/year"
+  ],
+  "unit_comparison": {
+    "case_sensitive": true,
+    "trim_before_compare": false,
+    "unconfigured_conversion": "BLOCK"
+  },
+  "upstream_baseline": {
+    "rows": 2,
+    "quality_counts": {
+      "PASS": 2,
+      "WARNING": 0,
+      "ERROR": 0
+    },
+    "activity_total_kg_per_year": "100.0000"
+  },
+  "calculation_baseline": {
+    "unrounded_total_kgco2e_per_year": "125.000000",
+    "official_six_decimal_total": "125.000000",
+    "row_six_decimal_sum": "125.000000",
+    "rounding_reconciliation_difference": "-0.000003"
+  },
+  "lineage_policy": {
+    "frozen_wp5_lineage": "IMMUTABLE_32_FIELDS",
+    "demo_extended_lineage": "SEPARATE_AND_JOINED_BY_RECORD_ID"
+  },
+  "gates": [
+    "G0_READY_TO_BUILD",
+    "G1A_UPSTREAM_REBUILD_RECONCILED",
+    "G2_CLI_END_TO_END_PASS",
+    "G3_SYNTHETIC_DEMO_PASS",
+    "G4_PUBLIC_RC_READY"
+  ],
+  "synthetic_factor": {
+    "value": "1.250000",
+    "unit": "kgCO2e/kg",
+    "numeric_semantics": "DECIMAL_STRICT_POSITIVE"
+  }
+}

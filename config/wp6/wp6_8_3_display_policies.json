@@ -1,0 +1,17 @@
+{
+  "schema_version": "WP6_8_3_DISPLAY_POLICY_V1",
+  "notes": "UI-only comparison EF for official 2025 live runs. Not a Router or production factor policy. Do not apply to unknown PCS files.",
+  "comparison_policies": [
+    {
+      "policy_id": "OFFICIAL_2025_VS_2024_EMBEDDED_EF",
+      "comparison_ef": "2.500000",
+      "comparison_label": "2025按历史因子模拟排放",
+      "current_label": "2025当前因子排放",
+      "match": {
+        "input_sha256": [
+          "SYNTHETIC_INPUT_SHA_PLACEHOLDER"
+        ]
+      }
+    }
+  ]
+}

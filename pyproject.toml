@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "carbon-excel-pipeline"
+version = "0.1.0.dev1"
+description = "Synthetic local-first Excel cleaning and carbon calculation demo"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "altair>=5,<6",
+  "openpyxl>=3.1,<4",
+  "pandas>=2.2,<4",
+  "PyYAML>=6,<7",
+  "streamlit>=1.40,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<10",
+]
+
+[project.scripts]
+carbon-excel-pipeline = "carbon_excel_pipeline.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

@@ -1,0 +1,38 @@
+{
+  "config_id": "PUBLIC_SYNTHETIC_DAY4_MAPPING_V1",
+  "profile_id": "public_synthetic_profile",
+  "classification": "PUBLIC_SYNTHETIC_ONLY",
+  "source_mode": "INLINE_SYNTHETIC_CONFIG",
+  "constants": {
+    "business_unit": "Synthetic Division",
+    "activity_category": "Synthetic Cell",
+    "activity_category_code": "SYN",
+    "material_id_default": "UNKNOWN",
+    "original_activity_unit": "g/year"
+  },
+  "record_id": {
+    "public_namespace": "SYN-",
+    "public_digits": 6
+  },
+  "missing_values": {
+    "unknown": "UNKNOWN",
+    "pending": "PENDING",
+    "no_mapping_source": "NO_MAPPING"
+  },
+  "inline_mappings": {
+    "suppliers": [
+      {
+        "Raw_Supplier_Value": "SYNTHETIC_SUPPLIER_A",
+        "Supplier_Abbreviation": "SUP-A",
+        "Supplier_Name": "Synthetic Supplier A",
+        "Supplier_ID": "SYN-SUP-A",
+        "Supplier_Status": "SYNTHETIC_MASTER",
+        "Mapping_Source": "PUBLIC_SYNTHETIC_CONFIG",
+        "Confidence": "HIGH",
+        "Record_Status": "ACTIVE"
+      }
+    ],
+    "customers": [],
+    "project_cells": []
+  }
+}

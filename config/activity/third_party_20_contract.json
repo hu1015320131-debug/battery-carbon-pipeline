@@ -1,0 +1,22 @@
+{
+  "contract_id": "WP3_THIRD_PARTY_20_FIELDS_V1",
+  "field_count": 20,
+  "fields": [
+    "Record_ID", "Year", "Product_Type", "Product_Description",
+    "Activity_Data", "Activity_Unit", "Supplier_Name", "Project_Code",
+    "Cell_Model", "Chemistry", "PCS", "Unit_Weight_g",
+    "Production_Country", "Factory", "Technology",
+    "Supplier_PCF_Available", "Evidence", "Data_Quality_Flag",
+    "Missing_Fields", "Remarks"
+  ],
+  "constants": {
+    "Product_Type": "CELL",
+    "Activity_Unit": "kg/year",
+    "Production_Country": "",
+    "Factory": "",
+    "Technology": "",
+    "Supplier_PCF_Available": "UNKNOWN",
+    "Evidence": ""
+  },
+  "warning_remarks_template": "SOURCE_QC={qc};SOURCE_ISSUE={issue};NOTE=Allowed under D4 policy"
+}

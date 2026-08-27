@@ -1,0 +1,25 @@
+{
+  "contract_id": "WP5_D5_END_TO_END_56_FIELDS_V1",
+  "field_count": 56,
+  "fields": [
+    "End_to_End_Run_ID", "End_to_End_Record_ID", "End_to_End_Algorithm_Version",
+    "End_to_End_Executed_At", "Upstream_Trace_Status", "Stage_Reconciliation_Status",
+    "End_to_End_QC_Status", "WP6_Validation_Eligible",
+    "Calculation_Run_ID", "Calculation_Record_ID", "Calculation_Algorithm_Version",
+    "Calculated_At", "Record_ID", "Result_ID", "Historical_EF_ID", "D2_Match_ID",
+    "Routing_Record_ID", "Exact_Lock_Status", "Match_Method", "Match_Status",
+    "Routing_Status", "D3_Record_Status", "D3_Issue_Code",
+    "D4_Calculation_Eligible_Input", "Simulation_Flag", "Synthetic_Test_Flag",
+    "Production_Eligible", "Activity_Data_Original", "Activity_Unit_Original",
+    "Activity_Value_Parsed", "Activity_Unit_Normalized", "Activity_Conversion_Factor",
+    "Activity_Data_Normalized_kg", "EF_Value_Original", "EF_Unit_Original",
+    "EF_Value_Parsed", "EF_Unit_Normalized", "EF_Conversion_Factor",
+    "EF_Value_Normalized_kgCO2e_per_kg", "Unit_Compatibility_Status",
+    "Unit_Compatibility_Rule_ID", "Calculation_Formula", "Arithmetic_Engine",
+    "Decimal_Context_Precision", "Rounding_Mode", "Raw_Emission_kgCO2e",
+    "Display_Decimal_Places", "Emission_kgCO2e", "Emission_Unit",
+    "Calculation_Status", "Calculation_QC_Status", "D4_Issue_Code",
+    "Calculation_Evidence", "Formal_Output_Eligible", "D5_End_to_End_Eligible",
+    "Remarks"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "contract_id": "WP5_D3_FORMAL_ROUTE_36_FIELDS_V1",
+  "field_count": 36,
+  "fields": [
+    "Routing_Run_ID", "Routing_Record_ID", "Routing_Algorithm_Version",
+    "Evaluated_At", "Record_ID", "Result_ID", "D2_Match_ID",
+    "D2_Match_Status", "Exact_Lock_Status", "Fallback_Eligible",
+    "Fallback_Attempted", "Fallback_Tier_Selected", "Fallback_Key_Field",
+    "Fallback_Key_Value", "Activity_Candidate_Count", "Result_Candidate_Count",
+    "Cross_Tier_Conflict", "Fallback_Confidence_Score",
+    "Fallback_Confidence_Band", "Match_Method", "Match_Status",
+    "Routing_Status", "Manual_Review_Required", "D3_Record_Status",
+    "D3_Issue_Code", "Simulation_Flag", "Synthetic_Test_Flag",
+    "Production_Eligible", "Activity_Data", "Activity_Unit",
+    "Historical_EF_ID", "EF_Value", "EF_Unit", "D4_Calculation_Eligible",
+    "D4_Gate_Route", "D3_Conclusion"
+  ]
+}

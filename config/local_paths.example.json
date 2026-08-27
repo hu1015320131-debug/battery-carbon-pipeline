@@ -1,0 +1,8 @@
+{
+  "note": "Copy this file to config/private/local_paths.json. The copied file is Git-ignored.",
+  "raw_input": "C:/path/to/examples/public/synthetic_cells.xlsx",
+  "run_root": "C:/path/to/external-temp/runs",
+  "output_root": "C:/path/to/external-outputs/streamlit",
+  "artifact_work_root": "C:/path/to/external-temp/artifact_work",
+  "upload_root": "C:/path/to/external-temp/uploads"
+}

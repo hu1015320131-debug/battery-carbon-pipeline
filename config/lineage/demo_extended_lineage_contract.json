@@ -1,0 +1,16 @@
+{
+  "contract_id": "DEMO_EXTENDED_LINEAGE_25_FIELDS_V1",
+  "field_count": 25,
+  "classification": "PRIVATE_DEMO_EXTENSION_NOT_WP5_FROZEN_LINEAGE",
+  "join_key": "Record_ID",
+  "fields": [
+    "Record_ID", "End_to_End_Run_ID", "End_to_End_Record_ID",
+    "Raw_Input_Source_File", "Raw_Input_SHA256", "Received_Input_Copy",
+    "Received_Input_SHA256", "Import_Run_ID", "Source_Sheet", "Source_Row",
+    "Day3_Candidate_File", "Day3_Exclusion_Audit_File", "Day3_Disposition",
+    "Day4_Standard_File", "Day5_Activity_File", "Day6_D1_File",
+    "Day6_D2_File", "Day6_D3_File", "Day7_D4_File", "Day7_D5_File",
+    "Profile_ID", "Profile_Config_SHA256", "Calculation_Config_SHA256",
+    "Frozen_Lineage_Join_Status", "Extended_Trace_Status"
+  ]
+}

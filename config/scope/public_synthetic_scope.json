@@ -1,0 +1,24 @@
+{
+  "config_id": "PUBLIC_SYNTHETIC_DAY3_SCOPE_V1",
+  "profile_id": "public_synthetic_profile",
+  "classification": "PUBLIC_SYNTHETIC_ONLY",
+  "target_sheet": "Synthetic Input",
+  "target_purchase_category": "Cell.Polymer Cell.Polymer Cell",
+  "category_match_method": "CLEANED_EXACT",
+  "supplier_markers": ["SYNTHETIC_SUPPLIER_A"],
+  "supplier_match_method": "CASE_INSENSITIVE_SUBSTRING",
+  "expected_input_records": null,
+  "expected_candidate_records": null,
+  "required_targets": [
+    "Purchase_Category",
+    "Product_Description",
+    "PCS",
+    "Source_Unit",
+    "Unit_Weight_g_per_PCS",
+    "Annual_Purchase_g_per_year"
+  ],
+  "context_units": {
+    "unit_weight_raw": "G/PCS",
+    "annual_activity_raw": "g/年"
+  }
+}

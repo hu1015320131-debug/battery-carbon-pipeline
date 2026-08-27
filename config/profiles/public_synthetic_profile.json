@@ -1,0 +1,24 @@
+{
+  "profile_id": "public_synthetic_profile",
+  "classification": "PUBLIC_SYNTHETIC_ONLY",
+  "schema_namespace": "public.synthetic.demo.v1",
+  "record_id_regex": "^SYN-[0-9]{6}$",
+  "year": 2030,
+  "business_enumerations": {
+    "business_unit": [
+      "合成一部",
+      "合成二部"
+    ],
+    "supplier_aliases": [
+      "SYNA",
+      "SYNB"
+    ],
+    "project_prefix": [
+      "SYN"
+    ]
+  },
+  "record_id_mapping_source": "SYNTHETIC_STABLE_NAMESPACE",
+  "default_factor_source": "PUBLIC_SYNTHETIC_FIXTURE",
+  "formal_result_label_allowed": false,
+  "publishable": false
+}

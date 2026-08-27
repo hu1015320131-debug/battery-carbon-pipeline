@@ -1,0 +1,20 @@
+{
+  "contract_id": "WP5_D1_45_FIELDS_V1",
+  "field_count": 45,
+  "fields": [
+    "Result_ID", "Record_ID", "Historical_EF_ID", "PACT_PF_ID",
+    "Result_Type", "Receipt_Source_Type", "Receipt_Source_Organization",
+    "Receipt_Source_File", "Receipt_Source_SHA256", "Received_At",
+    "Receipt_Schema_Version", "Raw_Payload_Path", "EF_Value", "EF_Unit",
+    "EF_Source_Type", "Source_Name", "Source_Version", "EF_Description",
+    "Technology", "Geography", "Reference_Year", "System_Boundary",
+    "Assessment_Date", "Remarks", "Evidence_File", "Updated_Date",
+    "Activity_Year", "Simulation_Trial_Scope", "Historical_EF_Trial_Scope",
+    "Activity_Data_Context", "Activity_Unit_Context", "Chemistry_Context",
+    "Upstream_QC_Status", "Upstream_Issue_Code",
+    "Historical_Relationship_ID", "Historical_Link_Method", "Simulation_Flag",
+    "Simulation_Type", "Simulation_Source", "Simulation_Purpose",
+    "Data_Truth_Class", "Synthetic_Test_Flag", "Production_Eligible",
+    "D1_Record_Status", "D1_Issue_Code"
+  ]
+}

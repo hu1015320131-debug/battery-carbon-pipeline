@@ -1,0 +1,1 @@
+"""Decimal activity-data generation."""

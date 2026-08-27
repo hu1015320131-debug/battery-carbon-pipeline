@@ -1,0 +1,23 @@
+{
+  "contract_id": "WP5_D2_57_FIELDS_V1",
+  "field_count": 57,
+  "fields": [
+    "Match_Run_ID", "Match_ID", "Match_Algorithm_Version", "Match_Method",
+    "Match_Key_Field", "Match_Key_Value", "Activity_Candidate_Count",
+    "Result_Candidate_Count", "Match_Status", "Match_QC_Status",
+    "D2_Record_Status", "D2_Issue_Code", "Matched_At", "Record_ID",
+    "Activity_Year", "Supplier_Abbreviation", "Supplier_Name", "Supplier_ID",
+    "Business_Unit", "Activity_Category", "Activity_Category_Code",
+    "Project_Code", "Cell_Model", "Material_ID", "Chemistry",
+    "Product_Description", "Activity_Data", "Activity_Unit",
+    "Upstream_QC_Status", "Upstream_Issue_Code", "Result_ID",
+    "Historical_EF_ID", "Result_Type", "EF_Value", "EF_Unit",
+    "EF_Source_Type", "Source_Name", "Source_Version", "Receipt_Source_Type",
+    "Receipt_Source_File", "Receipt_Source_SHA256", "Simulation_Flag",
+    "Simulation_Type", "Simulation_Source", "Simulation_Purpose",
+    "Data_Truth_Class", "Synthetic_Test_Flag", "Production_Eligible",
+    "D1_Record_Status", "D1_Issue_Code", "Historical_Relationship_ID",
+    "Historical_Link_Method", "Lineage_Check_Status", "Exact_Match_Eligible",
+    "D3_Fallback_Required", "D3_Routing_Status", "D2_Conclusion"
+  ]
+}

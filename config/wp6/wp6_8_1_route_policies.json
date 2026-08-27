@@ -1,0 +1,44 @@
+{
+  "schema_version": "PUBLIC_ROUTE_POLICY_CATALOG_V1",
+  "notes": "Activity route is selected from capability. Factor and boundary policies are matched independently. Unknown files must not inherit a default emission factor or the synthetic example boundary.",
+  "factor_policies": [
+    {
+      "policy_id": "SOURCE_EMBEDDED_FACTOR_V1",
+      "factor_route": "SOURCE_EMBEDDED_FACTOR",
+      "factor_usage": "SOURCE_EMBEDDED_FACTOR",
+      "simulation_flag": true,
+      "production_eligible": false,
+      "match": {
+        "require_embedded_factor": true
+      }
+    }
+  ],
+  "boundary_policies": [
+    {
+      "policy_id": "SYNTHETIC_DIRECT_MASS_BOUNDARY_V1",
+      "processor": "DIRECT_MASS_WP6_3",
+      "match": {
+        "required_activity_route": "DIRECT_REPORTED_MASS",
+        "require_embedded_factor": true,
+        "input_sha256": [
+          "4FA7FC7EBF9538AE67F59C725CB6F43AD6704445AF7567BE7B1BEA0BFA8D1A9C",
+          "SYNTHETIC_INPUT_SHA_PLACEHOLDER"
+        ]
+      },
+      "config_path": "config/wp6/synthetic_direct_mass_policy.json"
+    },
+    {
+      "policy_id": "PUBLIC_SYNTHETIC_DAY3_SCOPE_V1",
+      "processor": "PCS_DAY3_TO_DAY7",
+      "match": {
+        "required_activity_route": "PCS_WEIGHT_DERIVED",
+        "require_embedded_factor": true,
+        "input_sha256": [
+          "4FA7FC7EBF9538AE67F59C725CB6F43AD6704445AF7567BE7B1BEA0BFA8D1A9C",
+          "SYNTHETIC_INPUT_SHA_PLACEHOLDER"
+        ]
+      },
+      "config_path": "config/scope/public_synthetic_scope.json"
+    }
+  ]
+}

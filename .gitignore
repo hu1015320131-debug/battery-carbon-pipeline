@@ -1,0 +1,53 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local paths, secrets and machine-specific settings
+config/private/local_paths.json
+config/private/*.local.*
+.env
+.env.*
+*.pem
+*.key
+
+# Real inputs, generated outputs and run directories
+data/
+input/
+output/
+runs/
+tmp/
+temp/
+*.xlsx
+*.xls
+*.xlsm
+!examples/public/**/*.xlsx
+!examples/public/**/*.csv
+*.jsonl
+*.ndjson
+*.log
+
+# CSV files are denied by default; only reviewed structural evidence is allowed.
+*.csv
+!evidence/hashes/*.csv
+!config/**/*.csv
+!tests/**/*.csv
+!examples/public/**/*.csv
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+

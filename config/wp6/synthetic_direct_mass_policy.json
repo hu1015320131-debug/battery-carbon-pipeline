@@ -1,0 +1,24 @@
+{
+  "schema_version": "SYNTHETIC_DIRECT_MASS_POLICY_V1",
+  "year": 2030,
+  "selected_activity_path": "DIRECT_REPORTED_MASS",
+  "controlled_forward_fill_fields": [
+    "Business_Unit",
+    "Purchase_Type",
+    "Purchase_Category"
+  ],
+  "forbidden_forward_fill_fields": [
+    "Product_Description",
+    "Reported_Activity_Value",
+    "EF_Value",
+    "EF_Source",
+    "Historical_GHG_Value"
+  ],
+  "boundary": {
+    "business_unit_exact": "合成二部",
+    "purchase_category_root_exact": "电芯",
+    "product_description_marker": "SYNA"
+  },
+  "regression_baseline": null,
+  "historical_difference_reporting_threshold_tco2e": "0.000000001"
+}

@@ -1,0 +1,60 @@
+{
+  "registry_id": "STATUS_AND_OPEN_ITEMS_LAYERS_V1",
+  "quality_layers": {
+    "upstream_wp2_wp3": {
+      "field": "QC_Status",
+      "allowed": [
+        "PASS",
+        "WARNING",
+        "ERROR"
+      ]
+    },
+    "wp5_stage": {
+      "fields": [
+        "D3_Record_Status",
+        "Calculation_Status",
+        "Calculation_QC_Status",
+        "End_to_End_QC_Status"
+      ],
+      "must_not_overwrite_upstream_qc": true
+    },
+    "runtime_technical": {
+      "scope": "RUN_AND_STAGE_EXECUTION",
+      "must_not_overwrite_business_status": true
+    },
+    "wp6_4_shared_quality": {
+      "fields": {
+        "Calculation_QC": [
+          "PASS",
+          "WARNING",
+          "BLOCKED"
+        ],
+        "Governance_QC": [
+          "PASS",
+          "WARNING"
+        ],
+        "Overall_Status": [
+          "PASS",
+          "PASS_WITH_WARNING",
+          "PARTIAL_RESULT",
+          "BLOCKED"
+        ],
+        "Emission_Ready": [
+          true,
+          false
+        ],
+        "Boundary_Ready": [
+          true,
+          false
+        ]
+      },
+      "calculation_and_governance_must_remain_separate": true,
+      "emission_and_boundary_readiness_must_remain_separate": true,
+      "formula_cache_precision_term": "FORMULA_CACHE_PRECISION_DIFFERENCE"
+    }
+  },
+  "open_items": {
+    "counts": null,
+    "note": "No frozen private open-item baselines in the public demo."
+  }
+}

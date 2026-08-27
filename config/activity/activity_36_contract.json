@@ -1,0 +1,25 @@
+{
+  "contract_id": "WP3_ACTIVITY_36_FIELDS_V1",
+  "field_count": 36,
+  "fields": [
+    "Record_ID", "Year", "Source_File", "Source_Sheet", "Source_Row",
+    "Business_Unit", "Activity_Category", "Activity_Category_Code",
+    "Supplier_Abbreviation", "Supplier_Name", "Supplier_ID",
+    "Supplier_Status", "Mapping_Source", "Customer_Raw_Value",
+    "Customer_Name", "Customer_ID", "Customer_Mapping_Status",
+    "Customer_Mapping_Source", "Project_Code", "Cell_Model", "Material_ID",
+    "Chemistry", "Product_Description", "PCS", "Unit_Weight_g",
+    "Original_Activity_Value", "Original_Activity_Unit", "Data_Status",
+    "Mapping_Status", "QC_Status", "Issue_Code", "Total_Weight_g",
+    "Total_Weight_kg", "Total_Weight_t", "Activity_Diff_g",
+    "Activity_Diff_Rate"
+  ],
+  "decimal_semantics": true,
+  "formulas": {
+    "Total_Weight_g": "PCS * Unit_Weight_g",
+    "Total_Weight_kg": "Total_Weight_g / 1000",
+    "Total_Weight_t": "Total_Weight_g / 1000000",
+    "Activity_Diff_g": "Total_Weight_g - Original_Activity_Value",
+    "Activity_Diff_Rate": "Activity_Diff_g / Original_Activity_Value"
+  }
+}

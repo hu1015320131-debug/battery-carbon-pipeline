@@ -1,0 +1,20 @@
+{
+  "config_id": "DAY3_STRICT_UNIT_MAPPINGS_V1",
+  "comparison": {
+    "case_sensitive": true,
+    "trim_before_compare": false,
+    "unmapped_behavior": "ERROR"
+  },
+  "fields": {
+    "PCS": {
+      "mappings": {"PCS": "PCS"}
+    },
+    "UNIT_WEIGHT": {
+      "mappings": {"G/PCS": "g/PCS"}
+    },
+    "ANNUAL_ACTIVITY": {
+      "mappings": {"g/年": "g/year"}
+    }
+  }
+}
+

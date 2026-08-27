@@ -1,0 +1,141 @@
+{
+  "config_id": "WP6_1_SEMANTIC_FIELD_REGISTRY_V1",
+  "scan_rows": 10,
+  "data_evidence_rows": 3,
+  "minimum_unique_semantics": 2,
+  "minimum_match_count": 5,
+  "preferred_full_match_count": 6,
+  "fields": [
+    {
+      "semantic_field": "Business_Unit",
+      "canonical_source_header": "事业部",
+      "legacy_output": false,
+      "unit_required": false,
+      "aliases": ["业务部", "Business Unit"]
+    },
+    {
+      "semantic_field": "Purchase_Type",
+      "canonical_source_header": "采购类型",
+      "legacy_output": false,
+      "unit_required": false,
+      "aliases": []
+    },
+    {
+      "semantic_field": "Purchase_Category",
+      "legacy_target_field": "Purchase_Category",
+      "canonical_source_header": "采购分类",
+      "legacy_output": true,
+      "unit_required": false,
+      "required": true,
+      "aliases": ["采购类别", "物料采购分类", "公司外购原料和辅料名称", "物料类别"]
+    },
+    {
+      "semantic_field": "Product_Description",
+      "legacy_target_field": "Product_Description",
+      "canonical_source_header": "物料描述",
+      "legacy_output": true,
+      "unit_required": false,
+      "required": true,
+      "aliases": ["产品描述", "物料说明", "品名规格", "Product Description", "Material Description"]
+    },
+    {
+      "semantic_field": "Quantity_PCS",
+      "legacy_target_field": "PCS",
+      "canonical_source_header": "求和项:数量",
+      "legacy_output": true,
+      "unit_required": false,
+      "required": true,
+      "aliases": ["求和项：数量", "数量", "采购数量", "年度采购数量"]
+    },
+    {
+      "semantic_field": "Quantity_Unit",
+      "legacy_target_field": "Source_Unit",
+      "canonical_source_header": "单位",
+      "legacy_output": true,
+      "unit_required": false,
+      "required": true,
+      "aliases": ["采购单位", "数量单位"]
+    },
+    {
+      "semantic_field": "Unit_Weight",
+      "legacy_target_field": "Unit_Weight_g_per_PCS",
+      "canonical_source_header": "单PCS净重（G/PCS）",
+      "legacy_output": true,
+      "unit_required": true,
+      "required": false,
+      "aliases": ["单PCS净重(G/PCS)", "单PCS净重（g/PCS）", "单件净重(g/PCS)", "单件重量"]
+    },
+    {
+      "semantic_field": "Reported_Purchase_Quantity",
+      "legacy_target_field": "Annual_Purchase_g_per_year",
+      "canonical_source_header": "采购量（g/年）",
+      "legacy_output": true,
+      "unit_required": true,
+      "required": false,
+      "aliases": ["采购量(g/年)", "年度采购量（g/年）", "年度采购量(g/年)"]
+    },
+    {
+      "semantic_field": "Reported_Activity_Value",
+      "canonical_source_header": "年度购买原料量（T/年）",
+      "legacy_output": false,
+      "unit_required": true,
+      "aliases": ["2024年购买的原料量（T/年）", "2024年购买的原料量", "年度购买原料量", "购买原料量", "购买的原料量"]
+    },
+    {
+      "semantic_field": "EF_Value",
+      "canonical_source_header": "LCA排放因子（KGCO2/KG）",
+      "legacy_output": false,
+      "unit_required": true,
+      "aliases": ["LCA 排放因子（KGCO2/KG）", "LCA排放因子", "LCA 排放因子", "排放因子"]
+    },
+    {
+      "semantic_field": "EF_Source",
+      "canonical_source_header": "排放因子来源",
+      "legacy_output": false,
+      "unit_required": false,
+      "aliases": []
+    },
+    {
+      "semantic_field": "Historical_GHG_Value",
+      "canonical_source_header": "GHG排放量（TCO2/年）",
+      "legacy_output": false,
+      "unit_required": true,
+      "aliases": ["GHG 排放量（TCO2/年）", "GHG排放量", "GHG 排放量"]
+    },
+    {
+      "semantic_field": "Chemistry",
+      "canonical_source_header": "化学体系",
+      "legacy_output": false,
+      "unit_required": false,
+      "aliases": ["电芯体系", "电芯化学体系", "材料体系", "Chemistry"]
+    },
+    {
+      "semantic_field": "Supplier",
+      "canonical_source_header": "供应商",
+      "legacy_output": false,
+      "unit_required": false,
+      "aliases": ["供应商名称", "供应商简写", "Vendor", "Supplier"]
+    },
+    {
+      "semantic_field": "Project",
+      "canonical_source_header": "项目",
+      "legacy_output": false,
+      "unit_required": false,
+      "aliases": ["项目名称", "项目号", "客户项目", "Project"]
+    },
+    {
+      "semantic_field": "Model",
+      "canonical_source_header": "型号",
+      "legacy_output": false,
+      "unit_required": false,
+      "aliases": ["产品型号", "电芯型号", "物料型号", "Model"]
+    },
+    {
+      "semantic_field": "Customer",
+      "canonical_source_header": "客户",
+      "legacy_output": false,
+      "unit_required": false,
+      "aliases": ["客户名称", "Customer"]
+    }
+  ]
+}

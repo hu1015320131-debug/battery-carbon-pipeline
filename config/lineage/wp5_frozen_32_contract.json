@@ -1,0 +1,19 @@
+{
+  "contract_id": "WP5_D5_FROZEN_LINEAGE_32_FIELDS_V1",
+  "field_count": 32,
+  "immutable": true,
+  "fields": [
+    "End_to_End_Run_ID", "End_to_End_Record_ID", "Record_ID",
+    "Activity_Source_File", "Activity_Source_SHA256",
+    "Third_Party_Input_Source_File", "Third_Party_Input_Source_SHA256",
+    "Historical_EF_ID", "Historical_Relationship_ID", "D1_Result_ID",
+    "D1_Record_Status", "D1_Simulation_Flag", "D1_Production_Eligible",
+    "D2_Match_Run_ID", "D2_Match_ID", "D2_Match_Method", "D2_Match_Status",
+    "D2_Lineage_Check_Status", "D3_Routing_Run_ID", "D3_Routing_Record_ID",
+    "D3_Exact_Lock_Status", "D3_Routing_Status", "D3_Manual_Review_Required",
+    "D4_Calculation_Run_ID", "D4_Calculation_Record_ID", "D4_Calculation_Status",
+    "Activity_Data_Normalized_kg", "EF_Value_Normalized_kgCO2e_per_kg",
+    "Raw_Emission_kgCO2e", "Emission_kgCO2e", "Emission_Unit",
+    "End_to_End_Trace_Status"
+  ]
+}

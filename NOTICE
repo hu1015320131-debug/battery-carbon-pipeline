@@ -1,0 +1,13 @@
+NOTICE
+
+This repository is a synthetic, local-first demonstration of an Excel carbon
+calculation pipeline.
+
+It does not contain enterprise ledgers, real purchase records, or production
+emission factors. Example workbooks under examples/public/ are fictional.
+
+The demonstration factor 1.250000 kgCO2e/kg is a fixture. Unknown files must
+not inherit it. Results are not production-eligible and must not be used for
+statutory GHG inventories, supplier scoring, or public environmental claims.
+
+This project does not connect to third-party life-cycle databases.

@@ -1,0 +1,61 @@
+{
+  "config_id": "WP3_INTERFACE_OPEN_ITEMS_V1",
+  "classification": "GENERIC_GOVERNANCE_TEMPLATE",
+  "fields": [
+    "Open_Item_ID", "Open_Item", "Current_Status",
+    "Blocks_Internal_Delivery", "Risk", "Recommended_Action",
+    "Owner", "Target_Date"
+  ],
+  "items": [
+    {
+      "Open_Item_ID": "WP3-INT-001",
+      "Open_Item": "Complete customer master-data coverage",
+      "Current_Status": "OPEN",
+      "Blocks_Internal_Delivery": "NO",
+      "Risk": "Unmapped customers reduce external assessment context.",
+      "Recommended_Action": "Confirm and register missing customer mappings.",
+      "Owner": "PENDING",
+      "Target_Date": ""
+    },
+    {
+      "Open_Item_ID": "WP3-INT-002",
+      "Open_Item": "Complete chemistry master-data coverage",
+      "Current_Status": "OPEN",
+      "Blocks_Internal_Delivery": "NO",
+      "Risk": "Unknown chemistry limits downstream factor specificity.",
+      "Recommended_Action": "Confirm chemistry with the responsible data owner.",
+      "Owner": "PENDING",
+      "Target_Date": ""
+    },
+    {
+      "Open_Item_ID": "WP3-INT-003",
+      "Open_Item": "Collect production-country information",
+      "Current_Status": "OPEN",
+      "Blocks_Internal_Delivery": "NO",
+      "Risk": "Country-specific assessment inputs are unavailable.",
+      "Recommended_Action": "Add a governed production-country source.",
+      "Owner": "PENDING",
+      "Target_Date": ""
+    },
+    {
+      "Open_Item_ID": "WP3-INT-004",
+      "Open_Item": "Collect factory information",
+      "Current_Status": "OPEN",
+      "Blocks_Internal_Delivery": "NO",
+      "Risk": "Factory-specific assessment inputs are unavailable.",
+      "Recommended_Action": "Add a governed factory master-data source.",
+      "Owner": "PENDING",
+      "Target_Date": ""
+    },
+    {
+      "Open_Item_ID": "WP3-INT-005",
+      "Open_Item": "Collect technology and supplier-PCF evidence",
+      "Current_Status": "OPEN",
+      "Blocks_Internal_Delivery": "NO",
+      "Risk": "Technology and primary-data evidence remain incomplete.",
+      "Recommended_Action": "Request technology and PCF evidence before final assessment.",
+      "Owner": "PENDING",
+      "Target_Date": ""
+    }
+  ]
+}

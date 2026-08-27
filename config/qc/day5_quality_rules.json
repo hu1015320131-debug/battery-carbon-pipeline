@@ -1,0 +1,53 @@
+{
+  "config_id": "DAY5_UPSTREAM_QUALITY_RULES_V1",
+  "allowed_statuses": [
+    "PASS",
+    "WARNING",
+    "ERROR"
+  ],
+  "required_fields": [
+    "Record_ID",
+    "Year",
+    "Source_File",
+    "Source_Sheet",
+    "Source_Row",
+    "Business_Unit",
+    "Activity_Category",
+    "Activity_Category_Code",
+    "Supplier_Abbreviation",
+    "Supplier_Name",
+    "Supplier_ID",
+    "Supplier_Status",
+    "Mapping_Source",
+    "Customer_Raw_Value",
+    "Customer_Name",
+    "Customer_ID",
+    "Customer_Mapping_Status",
+    "Customer_Mapping_Source",
+    "Project_Code",
+    "Cell_Model",
+    "Material_ID",
+    "Chemistry",
+    "Product_Description",
+    "PCS",
+    "Unit_Weight_g",
+    "Original_Activity_Value",
+    "Original_Activity_Unit"
+  ],
+  "formal_activity_unit": "g/year",
+  "warning_issue_order": [
+    "CUSTOMER_UNMAPPED",
+    "PROJECT_MAPPING_PENDING",
+    "CELL_MODEL_UNKNOWN",
+    "CHEMISTRY_UNKNOWN"
+  ],
+  "registered_float_tail_tolerance_g": "0.00000004",
+  "registered_float_tail_tolerance_by_field": {
+    "Total_Weight_g": "0.00000004",
+    "Total_Weight_kg": "0.00000000004",
+    "Total_Weight_t": "0.0000000000001",
+    "Activity_Diff_g": "0.00000004"
+  },
+  "g1a_pass_status": "G1A_UPSTREAM_REBUILD_RECONCILED",
+  "g1a_fail_status": "G1A_UPSTREAM_REBUILD_BLOCKED"
+}

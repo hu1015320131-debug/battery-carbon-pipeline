@@ -1,0 +1,16 @@
+{
+  "registry_id": "PUBLIC_PROFILE_REGISTRY_V1",
+  "profiles": [
+    "public_synthetic_profile"
+  ],
+  "config_files": {
+    "public_synthetic_profile": "config/profiles/public_synthetic_profile.json"
+  },
+  "isolation_policy": {
+    "share_algorithms_only": true,
+    "share_schema_namespace": false,
+    "share_id_rules": false,
+    "share_business_enumerations": false,
+    "share_default_factor_values": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "contract_id": "DAY6_EXTERNAL_FACTOR_8_FIELDS_V1",
+  "field_count": 8,
+  "fields": [
+    "Record_ID",
+    "EF_Value",
+    "EF_Unit",
+    "Result_Type",
+    "Source_Name",
+    "Source_Version",
+    "Simulation_Flag",
+    "Production_Eligible"
+  ],
+  "allowed_result_types": ["EMISSION_FACTOR"],
+  "allowed_ef_units": ["kgCO2e/kg"],
+  "boolean_values": ["TRUE", "FALSE"],
+  "numeric_semantics": "DECIMAL_STRICT_POSITIVE",
+  "unit_comparison": "EXACT_NO_TRIM_NO_CASE_NORMALIZATION"
+}

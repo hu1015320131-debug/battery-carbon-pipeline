@@ -1,0 +1,16 @@
+{
+  "config_id": "DAY7_PUBLIC_CALCULATION_RULES_V1",
+  "classification": "PUBLIC_SYNTHETIC_ONLY",
+  "algorithm_version": "1.0.0",
+  "arithmetic_engine": "PYTHON_DECIMAL",
+  "decimal_context_precision": 28,
+  "rounding_mode": "ROUND_HALF_UP",
+  "display_decimal_places": 6,
+  "aggregate_before_rounding": true,
+  "unit_rule_id": "UC-KGYEAR-KGCO2EPERKG-001",
+  "activity_unit": "kg/year",
+  "ef_unit": "kgCO2e/kg",
+  "emission_unit": "kgCO2e/year",
+  "calculation_formula": "Activity_Data_Normalized_kg × EF_Value_Normalized_kgCO2e_per_kg",
+  "remarks": "Historical factor simulation calculation for local validation only; technical applicability unconfirmed; production use disabled."
+}
