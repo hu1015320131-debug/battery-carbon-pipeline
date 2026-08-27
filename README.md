@@ -1,4 +1,4 @@
-# carbon-excel-pipeline
+# battery-carbon-pipeline｜电芯碳数据标准化与核算工具
 
 Local-first Excel import, cleaning, matching and carbon-calculation demo.
 
